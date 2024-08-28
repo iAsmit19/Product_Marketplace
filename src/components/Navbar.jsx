@@ -6,6 +6,7 @@ import {
   navLinks,
   navLogo,
 } from "../stylesheets/navbar.module.css";
+import marketplace from "/src/assets/logo-icon/marketplace-full.svg";
 import { IconContext } from "react-icons";
 import { PiShoppingCartSimpleLight } from "react-icons/pi";
 
@@ -16,7 +17,7 @@ const Navbar = () => {
         <div className={navLogo}>
           <img
             draggable="false"
-            src="./src/assets/logo-icon/marketplace-full.svg"
+            src={marketplace}
             alt=""
           />
         </div>
